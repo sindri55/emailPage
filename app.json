@@ -1,0 +1,26 @@
+{
+  "name": "ProtusQ Landing Page",
+  "description": "Landing page for email list",
+  "website": "www.protusq.com",
+  "repository": "https://github.com/mailgun/node-prelaunch",
+  "logo": "https://mailgun.github.io/media/Mailgun_Icon.png",
+  "keywords": ["Protusq", "nutrition", "amazon", "email", "email list", "landing page protusq"],
+  "env": {
+    "APP_NAME": {
+      "description": "Title For Your Landing Page",
+      "value": "Prelaunch App Name Here"
+    },
+    "MAILGUN_REPLY_EMAIL": {
+      "description": "The no-reply email address you'd like to use.",
+      "value": "noreply@node-prelaunch.herokuapp.com"
+    },
+    "GOOGLE_ANALYTICS": {
+      "description": "Google Analytics ID",
+      "required": false
+    },
+    "NODE_ENV": {
+      "value": "production"
+    }
+  },
+  "addons": ["mailgun", "mongolab"]
+}
